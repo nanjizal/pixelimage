@@ -117,9 +117,8 @@ var arrowThickGradientTest: String =
                         arrowHeight="50"
                         strokeWidth="5" strokeTopColor="0xFF9000FF" strokeBottomColor="0xffffa200">
                     </ArrowThickGradient>';
-//var quadtest_d      = 'M200,300 Q400,50 600,300 T1000,300';
-var quadtest_d      = 'M200,300 Q400,50 600,300 T1000,300,L50,50 L20,20 L100,200 C100,100 250,100 250,200S400,300 400,200';
-var cubictest_d     = 'M100,200 C100,100 250,100 250,200S400,300 400,200';
+
+                    
 // needs justPath to implement..?
 var pathElementQuadTest =
                     '<PathElementShape 

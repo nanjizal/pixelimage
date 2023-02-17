@@ -13,7 +13,7 @@ function toNmeBitmapData( pixelShape: Pixelshape ): BitmapData {
     var lh = pixelShape.height; 
     var lw = pixelShape.width;
     var dataRGB = haxe.io.Bytes.alloc( lw * lh * 3 );
-    var dataA = haxe.io.Bytes.alloc( lw * lh );
+    var dataA   = haxe.io.Bytes.alloc( lw * lh );
     var p0 = 0;
     var p1 = 0;
     // not optimal
